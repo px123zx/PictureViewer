@@ -47,10 +47,7 @@ class PXPicCollectionViewController: UICollectionViewController {
         self.automaticallyAdjustsScrollViewInsets = false
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        self.navigationController?.navigationBar.isHidden = false
-    }
+   
     
     
 
