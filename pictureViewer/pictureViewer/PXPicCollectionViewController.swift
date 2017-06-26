@@ -13,6 +13,17 @@ private let reuseIdentifier = "PXPicViewer"
 class PXPicCollectionViewController: UICollectionViewController {
     //图片数组
     var picArr: [String] = []
+    //返回按钮
+    let backBtn: UIButton = {
+        
+        let backBtn = UIButton(frame: CGRect(x: 10, y: 15, width: 35, height: 35))
+        backBtn.setImage(UIImage(named: "back.png"), for: .normal)
+        backBtn.addTarget(self, action:#selector(backVC), for: .touchUpInside)
+        return backBtn
+        
+    }()
+    
+    
     
     override init(collectionViewLayout layout: UICollectionViewLayout) {
         super.init(collectionViewLayout: layout)
@@ -45,6 +56,8 @@ class PXPicCollectionViewController: UICollectionViewController {
         collectionView?.isPagingEnabled = true
         //不自动调整位置
         self.automaticallyAdjustsScrollViewInsets = false
+        
+        self.view.addSubview(backBtn)
     }
     
    
@@ -63,6 +76,10 @@ class PXPicCollectionViewController: UICollectionViewController {
         return cell
     }
 
+    @objc private func backVC() {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     // MARK: UICollectionViewDelegate
 
     /*

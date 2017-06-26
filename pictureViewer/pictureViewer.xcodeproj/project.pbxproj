@@ -22,6 +22,7 @@
 		2AD428DA1EFCBE8100232AA3 /* PXPicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD428D81EFCBE8100232AA3 /* PXPicCollectionViewCell.swift */; };
 		2AD428DB1EFCBE8100232AA3 /* PXPicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD428D91EFCBE8100232AA3 /* PXPicCollectionViewCell.xib */; };
 		2AD428DD1EFCEFCE00232AA3 /* PXFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD428DC1EFCEFCE00232AA3 /* PXFlowLayout.swift */; };
+		2AD428DF1F00F2AD00232AA3 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD428DE1F00F2AD00232AA3 /* back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		2AD428D81EFCBE8100232AA3 /* PXPicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXPicCollectionViewCell.swift; sourceTree = "<group>"; };
 		2AD428D91EFCBE8100232AA3 /* PXPicCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PXPicCollectionViewCell.xib; sourceTree = "<group>"; };
 		2AD428DC1EFCEFCE00232AA3 /* PXFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXFlowLayout.swift; sourceTree = "<group>"; };
+		2AD428DE1F00F2AD00232AA3 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		2AD4289F1EFCB9C700232AA3 /* pictureViewer */ = {
 			isa = PBXGroup;
 			children = (
+				2AD428DE1F00F2AD00232AA3 /* back.png */,
 				2AD428D01EFCBE1100232AA3 /* 4.jpeg */,
 				2AD428D11EFCBE1100232AA3 /* 3.jpeg */,
 				2AD428D21EFCBE1100232AA3 /* 2.jpeg */,
@@ -261,6 +264,7 @@
 			files = (
 				2AD428D71EFCBE1100232AA3 /* 1.jpeg in Resources */,
 				2AD428D51EFCBE1100232AA3 /* 3.jpeg in Resources */,
+				2AD428DF1F00F2AD00232AA3 /* back.png in Resources */,
 				2AD428AB1EFCB9C800232AA3 /* LaunchScreen.storyboard in Resources */,
 				2AD428D61EFCBE1100232AA3 /* 2.jpeg in Resources */,
 				2AD428A81EFCB9C700232AA3 /* Assets.xcassets in Resources */,
